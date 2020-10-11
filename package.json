@@ -1,0 +1,27 @@
+{
+  "name": "codeit-backend",
+  "version": "1.0.0",
+  "description": "App to assess student code",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyAir/codeIt-backend.git"
+  },
+  "author": "John Ekunola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnnyAir/codeIt-backend/issues"
+  },
+  "homepage": "https://github.com/JohnnyAir/codeIt-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
